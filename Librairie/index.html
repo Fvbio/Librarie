@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Librairie</title>
+</head>
+<body>
+
+<section>
+    <h1>AJOUTER UN LIVRE</h1>
+    <form action="" id="form-addBook">
+        <label for="title">Titre</label>
+        <input name="title" id="form-title" type="text">
+        <br>
+        <label for="author">Auteur</label>
+        <input name="author" id="form-author" type="text">
+        <br>
+        <input type="submit">
+    </form>
+</section>
+
+<hr>
+
+<section>
+    <button id="show-books">Afficher les livres</button>
+    <ul id="book-list"></ul>
+</section>
+
+<hr>
+
+<section>
+
+    <form id="form-searchBook">
+        <input id="search-title" type="text" placeholder="Titre à rechercher" />
+        <button type="submit">Rechercher</button>
+    </form>
+    
+<p id="search-result"></p>
+
+</section>
+
+<script type="module" src="./main.js"></script>
+
+
+    
+</body>
+</html>
